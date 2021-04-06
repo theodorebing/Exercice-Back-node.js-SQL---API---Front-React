@@ -1,0 +1,5 @@
+location (
+    id INT,
+    label TEXT,
+    parentid INT
+)

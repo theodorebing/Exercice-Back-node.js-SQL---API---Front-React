@@ -1,0 +1,45 @@
+.location {
+  margin-top: 1rem;
+  text-align: left;
+
+  &-parent {
+    display: flex;
+  }
+
+  &-title {
+  margin-left: 1rem;
+  }
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.icon {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.arrow {
+
+  &-right{
+    transform: rotate(-90deg);
+  }
+
+  &-down{
+    transform: none;
+  }
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

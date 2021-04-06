@@ -1,0 +1,10 @@
+### service indisponible
+GET http://localhost:5050/404
+
+############################## LOCALITÉS #############################
+
+### récupération de toutes les localités
+GET http://localhost:5050/localites
+
+### récupération d'une localité et de ses enfants
+GET http://localhost:5050/localites/1
